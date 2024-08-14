@@ -5,7 +5,7 @@ import {
   useParams,
   useSearchParams,
 } from "react-router-dom";
-import ReadComponent from "./ReadComponent";
+import ReadComponent from "../../components/todo/ReadComponent";
 
 const ReadPage = () => {
   const { tno } = useParams();

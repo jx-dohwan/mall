@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { deleteOne, getOne, putOne } from "../../api/todoApi";
 
-import ResultModal from "../../components/common/ResultModal";
+import ResultModal from "../common/ResultModal";
 import useCustomMove from "../../hooks/useCustomMove";
 
 const initState = {
